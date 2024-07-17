@@ -1,0 +1,11 @@
+package exam14;
+
+public class carmain {
+
+	Car car = new Car()
+	
+	car.year = 2020;
+	
+	
+	
+}
