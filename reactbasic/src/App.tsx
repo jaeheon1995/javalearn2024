@@ -3,6 +3,7 @@ import Component, { FunctionComponent } from './component/Component';
 import './App.css';
 import CurlyBraces from './component/CurlyBraces';
 import Properties from './component_manage/Properties';
+import ConditionmalRender from './component_manage/ConditionmalRender';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Component /> */}
       {/* <FunctionComponent /> */}
       {/* <CurlyBraces /> */}
-      <Properties />
+      {/* <Properties /> */}
+      <ConditionmalRender />
     </>
   );
 }
